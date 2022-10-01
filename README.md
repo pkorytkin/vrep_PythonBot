@@ -6,7 +6,7 @@
 
 **2.** Сцена Vrep с модифицированным мной стандартного BubbleBot с прикреплёнными написанными скриптами на Python для взаимодействия с ROS.
 
-**Установка и запуск:**
+**Установка и запуск на ROS1 Noetic + CoppeliaSim Edu V4.4.0 rev0:**
 
 1. Колнируем репозиторий в ~catkin_ws/src
 2. Открываем в VREP https://www.coppeliarobotics.com/downloads -> vrep_PythonBot/PythonBotVREP.ttt
