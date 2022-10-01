@@ -9,14 +9,16 @@
 **Установка и запуск:**
 
 1. Колнируем репозиторий в ~catkin_ws/src
-
 2. Открываем в VREP https://www.coppeliarobotics.com/downloads -> vrep_PythonBot/PythonBotVREP.ttt
-
-3. Запускаем roscore
-
-4. Запускаем сцену робота в VREP нажав кнопку Play.
-
-5. Запускаем пакет:
+3. Клонируем https://github.com/CoppeliaRobotics/simExtROS в ~catkin_ws/src
+4. Клонируем https://github.com/CoppeliaRobotics/ros_bubble_rob в ~catkin_ws/src
+5. Ставим дополнительный пакет для обвязки с VREP-ROS: sudo apt-get install xsltproc
+6. **Прописываем путь VREP в catkin_ws:**
+7. export COPPELIASIM_ROOT_DIR=~**путь внутрь папки с VREP**
+8. Далаем catkin_make в catkin_ws
+9. Запускаем roscore
+10. Запускаем сцену робота в VREP нажав кнопку Play.
+11. Запускаем пакет:
 
 python vrep_PythonBot/src/brain.py 
 
@@ -24,7 +26,7 @@ python vrep_PythonBot/src/brain.py
 
 rosrun vrep_PythonBot launch.launch
 
-6. Profit!
+12. Profit!
 
 **Функционал PythonBot:**
 
