@@ -28,6 +28,10 @@ rosrun vrep_PythonBot launch.launch
 
 12. Profit!
 
+**Вспомогательная инструкция по установке VREP-ROS:**
+https://www.coppeliarobotics.com/helpFiles/en/ros1Tutorial.htm
+(копируем команды без $ и на Noetic вместо catkin build делаем catkin_make)
+
 **Функционал PythonBot:**
 
 **1.** Публикация в ROS изображения с камеры в топик /image - sensor_msgs/Image
