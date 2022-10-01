@@ -6,11 +6,11 @@
 
 **2.** Сцена Vrep с модифицированным мной стандартного BubbleBot с прикреплёнными написанными скриптами на Python для взаимодействия с ROS.
 
-**Установка:**
+**Установка и запуск:**
 
 1. Колнируем репозиторий в ~catkin_ws/src
 
-2. Открываем в VREP https://www.coppeliarobotics.com/downloads -> PythonBotVREP.ttt
+2. Открываем в VREP https://www.coppeliarobotics.com/downloads -> vrep_PythonBot/PythonBotVREP.ttt
 
 3. Запускаем roscore
 
@@ -22,7 +22,7 @@ python vrep_PythonBot/src/brain.py
 
 или 
 
-rosrun vrep_PythonBot turtlesim_node launch.launch
+rosrun vrep_PythonBot launch.launch
 
 6. Profit!
 
