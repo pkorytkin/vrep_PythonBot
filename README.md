@@ -13,7 +13,7 @@
 3. Клонируем https://github.com/CoppeliaRobotics/simExtROS в ~catkin_ws/src
 4. Клонируем https://github.com/CoppeliaRobotics/ros_bubble_rob в ~catkin_ws/src
 5. Ставим дополнительный пакет для обвязки с VREP-ROS: sudo apt-get install xsltproc
-6. **Прописываем путь VREP в catkin_ws:**
+6. **Прописываем путь VREP:**
 7. export COPPELIASIM_ROOT_DIR=~**путь внутрь папки с VREP**
 8. Далаем catkin_make в catkin_ws
 9. Запускаем roscore
